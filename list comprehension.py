@@ -20,12 +20,11 @@ fruits= ["apple", "banana", "coconut", "durian", "fuji apples", "grapes"]
 print(fruits)
 capital= []
 
-for x in fruits:
+for x in range(0, len(fruits)):
     
-    p= x.capitalize
-    (capital.append(p))
+    (capital.append(fruits[x].capitalize))
     
-print(str(capital))
+print(capital)
 
 
         
